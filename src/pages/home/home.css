@@ -1,0 +1,174 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    
+}
+.natv{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.textoTv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width:100%;
+}
+.textoTv p{
+    width: 300px;
+    font-size: 20px;
+}
+.titulo{ 
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  
+}
+.banner{
+    opacity: 0.9;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+h2{
+
+    font-size: 50px;
+    font-weight: 800;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
+.limites{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.label{
+    display: flex;
+    align-items: center;
+}
+.butao{
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+  
+}
+.emailTopo{
+    font-size: 20px;
+    width: 400px;
+    height: 20px;
+    background-color: #222;
+    border: none;
+}
+.link{
+    border-radius: 10px;
+    width: 80px;
+    height: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1{
+    font-size: 20px;
+    width: 320px;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.paragrafo{
+    font-size: 20px;
+}
+.paragrafo2{
+    font-size: 18px;
+}
+@media(max-width:1000px){
+    .butao{
+        margin-bottom: 20px;
+    }
+   
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .textoTv{
+        width: 100%;
+    }
+    .titulo{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+      
+    }
+    .img{
+        width: 200px;
+        height: 100px;
+    }
+     .p{
+       width: 200px;
+        font-size: 20px;
+     }
+     h2{
+         display: flex;
+         margin-top: 50px;
+         margin-bottom: 100px;
+         align-items: center;
+         flex-direction: column;
+        font-size: 30px;
+        width: 220px;
+     }
+     .paragrafo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 22px;
+        margin-bottom: 20px;
+        width: 100%;
+     }
+     .paragrafo2{
+        font-size: 18px;
+        margin-bottom: 20px;
+        width: 250px;
+     }
+     
+     .natv{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+     }
+    .emailTopo{
+        width: 300px;
+        height: 20px;
+    }
+}

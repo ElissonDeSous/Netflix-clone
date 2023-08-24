@@ -1,0 +1,42 @@
+.rodapeLink{
+    text-decoration:underline;
+}
+.footer{
+    border-top: rgb(39, 38, 38) 10px solid;
+   height:100%;
+}
+.rodape{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+.tel{
+    color: silver;
+}
+.telefone{
+    text-decoration: underline;
+}
+.duvidas{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.RodaPe{
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width:1000px)
+{
+    .footer{
+        border: solid red 1px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
